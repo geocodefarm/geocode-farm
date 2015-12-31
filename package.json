@@ -1,0 +1,20 @@
+{
+  "name": "geocode-farm",
+  "version": "1.0.0",
+  "description": "> addresses geocoding",
+  "main": "index.js",
+  "dependencies": {
+    "async": "^1.5.0",
+    "pg": "^4.4.3",
+    "pg-format": "^1.0.1",
+    "pretty-ms": "^2.1.0",
+    "superagent": "^1.6.1",
+    "winston": "^2.1.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "joliscri.pt <joli.script@gmail.com> (http://joliscri.pt/)",
+  "license": "ISC"
+}
