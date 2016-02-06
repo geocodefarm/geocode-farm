@@ -17,6 +17,10 @@ query.on('row', (row) => {
 });
 
 query.on('end', () => {
+  if (rows.length === 0) {
+    logger.info('Any POI to fetch');
+    return;
+  }
   logger.info('Fetching done');
   geocode(rows);
 });
