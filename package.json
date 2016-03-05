@@ -13,8 +13,7 @@
     "pretty-ms": "^2.1.0",
     "superagent": "^1.6.1",
     "winston": "^2.1.1",
-    "insee": "git@github.com:92bondstreet/insee.git",
-    "mairie": "git@github.com:92bondstreet/mairie.git"
+    "adresse": "git@github.com:92bondstreet/adresse.git"
   },
   "devDependencies": {},
   "scripts": {
